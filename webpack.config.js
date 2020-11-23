@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const port = process.env.PORT || 3000;
 
 module.exports = {
     entry: './src/index.js',
@@ -40,6 +41,6 @@ module.exports = {
         open: true,
         compress: true,
         historyApiFallback: true,
-        port: 3000
+        port: port
     }
 };
