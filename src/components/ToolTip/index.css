@@ -1,0 +1,10 @@
+.tooltip-container{
+    background-color: #ede8da;
+    height: 50px;
+    display: flex;
+    border-bottom: solid;
+}
+.tooltip-icon{
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,26 @@
+.banner-Container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(to bottom,#026aff,#0053e3, #0053e3, #026aff);
+    height: 40px;
+    border-radius: 7px 7px 0px 0px;
+
+}
+.first-button{
+    margin-left: auto;
+ 
+}
+.banner-button{
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    padding: 3px;
+}
+.banner-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+    margin: 0px;
+}
