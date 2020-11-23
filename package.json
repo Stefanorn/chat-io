@@ -1,5 +1,5 @@
 {
-	"name": "template",
+	"name": "biac",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -7,6 +7,7 @@
 		"start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js -dev-server --config ./webpack.config.js",
 		"dev": "webpack-dev-server --config ./webpack.config.js --mode development",
 		"package": "webpack",
+	  	"heroku-prebuild": "npm install --dev",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
