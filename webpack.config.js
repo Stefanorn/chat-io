@@ -1,6 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 
 module.exports = {
     entry: './src/index.js',
